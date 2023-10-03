@@ -6,4 +6,4 @@ def uppercase(str):
             str1 += (letter + 32)
         else:
             str1 += letter
-    return str1
+    return str
