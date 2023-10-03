@@ -2,7 +2,7 @@
 def uppercase(str):
     uppercase = ""
     for letter in str:
-        if letter > 96 and letter < 123:
+        if ord(letter) > 96 and ord(letter) < 123:
             uppercase = (letter + 32)
             print("{}".format(uppercase), end="")
         else:
