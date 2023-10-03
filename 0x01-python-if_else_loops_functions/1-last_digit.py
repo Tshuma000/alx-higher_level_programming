@@ -6,6 +6,7 @@ last_digit = 0
 if number < 0:
     positive_number = number * -1
     last_digit = positive_number % 10
+    last_digit *= -1
 else:
     last_digit = number % 10
 if last_digit > 5:
