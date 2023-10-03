@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-uppercase = __import__('8-uppercase').uppercase
-
-uppercase("best")
-uppercase("Best School 98 Battery street")
-
+def uppercase(str):
+    str1 = ""
+    for letter in str:
+        if letter > 96 and letter < 123:
+            str1 += (letter + 32)
+        else:
+            str1 += letter
+    return str1
