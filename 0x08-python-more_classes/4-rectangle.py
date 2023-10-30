@@ -55,8 +55,9 @@ class Rectangle:
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
+
     def __repr__(self):
         """Return string representation of the Rectangle"""
         rect = "Rectangle(" + str(self.__width)
-        rect += ", " + str(self.__height) + ") "
+        rect += ", " + str(self.__height) + ")"
         return (rect)
